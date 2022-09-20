@@ -327,44 +327,39 @@ img {
 
 /* Team */
 
-.team {
+.team__section {
   background-color: var(--third-bg-cl);
 }
 
-.team-item {
-  background: var(--light-txt-cl);
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 0px 0px 4px 4px;
-}
-
-.team-list {
-  display: flex;
-  padding-inline-start: 0;
-  justify-content: space-between;
-}
-
-/* .team-img {
-  padding-bottom: 30px;
-} */
-
-.team-img,
-.img-link {
-  background-color: var(--light-txt-cl);
-}
-
-.team-text {
-  padding: 30px 10px;
-}
-
-.team-main-title {
+.team__caption {
   margin-bottom: 50px;
   font-size: 36px;
   line-height: calc(42 / 36);
   text-align: center;
 }
 
-.team-title {
+.team__list {
+  display: flex;
+  padding-inline-start: 0;
+  justify-content: space-between;
+}
+
+.team__item {
+  background: var(--light-txt-cl);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.team__img {
+  background-color: var(--light-txt-cl);
+}
+
+.team__text {
+  padding: 30px 10px;
+}
+
+.team__title {
   margin-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
@@ -372,7 +367,7 @@ img {
   text-align: center;
 }
 
-.team-subtitle {
+.team__subtitle {
   font-size: 16px;
   line-height: calc(19 / 16);
   text-align: center;
@@ -388,7 +383,7 @@ img {
   padding-left: 0;
 }
 
-.socials-link {
+.socials__link {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -399,26 +394,21 @@ img {
   transition: var(--anim);
 }
 
-.socials-link:hover,
-.socials-link:focus {
+.socials__link:hover,
+.socials__link:focus {
   background-color: var(--accent-cl);
 }
 
-.socials-icon {
+.socials__icon {
   fill: var(--fill-cl);
 
   transition: var(--anim);
 }
 
-.socials-link:hover .socials-icon,
-.socials-link:focus .socials-icon {
+.socials__link:hover .socials__icon,
+.socials__link:focus .socials__icon {
   fill: var(--light-txt-cl);
 }
-
-/* .socials-icon:hover,
-.socials-icon:focus {
-  fill: var(--light-txt-cl);
-} */
 
 /* Clients */
 
@@ -511,6 +501,10 @@ img {
 .img-item:hover,
 .img-item:focus {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.img-link {
+  background-color: var(--light-txt-cl);
 }
 
 .img-list {
