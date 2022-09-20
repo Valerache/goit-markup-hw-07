@@ -255,9 +255,9 @@ img {
   letter-spacing: 0.06em;
 }
 
-/* Peculiarities */
+/* Differences */
 
-.icon {
+.diff__box {
   width: 270px;
   height: 120px;
   background-color: var(--third-bg-cl);
@@ -278,19 +278,19 @@ img {
   stroke: var(--accent-cl);
 } */
 
-.pecul-list {
+.diff__list {
   display: flex;
   justify-content: space-between;
   padding-inline-start: 0;
 }
 
-.pecul-title {
+.diff__title {
   margin-bottom: 10px;
   font-size: 14px;
   line-height: calc(16 / 14);
 }
 
-.pecul-item {
+.diff__item {
   width: 270px;
 }
 
