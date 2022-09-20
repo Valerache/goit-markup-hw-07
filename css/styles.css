@@ -268,16 +268,6 @@ img {
   justify-content: center;
 }
 
-/* .icon:hover,
-.icon:focus {
-  border: 2px solid var(--accent-cl);
-}
-
-.pecul-icon:hover,
-.pecul-icon:focus{
-  stroke: var(--accent-cl);
-} */
-
 .diff__list {
   display: flex;
   justify-content: space-between;
@@ -296,28 +286,28 @@ img {
 
 /* About */
 
-.about {
+.about__section {
   padding-top: 0;
 }
 
-.about-title {
+.about__title {
   margin-bottom: 50px;
   font-size: 36px;
   line-height: calc(42 / 36);
   text-align: center;
 }
 
-.about-list {
+.about__list {
   display: flex;
   padding-inline-start: 0;
   gap: 30px;
 }
 
-.about-thumb {
+.about__box {
   position: relative;
 }
 
-.about-overlay {
+.about__overlay {
   position: absolute;
   left: 0;
   bottom: 0;
@@ -330,16 +320,12 @@ img {
   color: var(--light-txt-cl);
 }
 
-.about-overlay-title {
+.about__text {
   font-size: 14px;
   line-height: calc(16 / 14);
 }
 
 /* Team */
-
-/* .team {
-    background: #f5f4fa;
-} */
 
 .team {
   background-color: var(--third-bg-cl);
