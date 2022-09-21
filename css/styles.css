@@ -780,7 +780,7 @@ img {
   margin-bottom: 20px;
 }
 
- .input-container:nth-child(6) {
+.input-container:nth-child(6) {
   margin-bottom: 30px;
 }
 
@@ -810,9 +810,8 @@ img {
   outline: transparent;
   border: 1px solid var(--accent-cl);
 }
- 
-.input-box:focus + .input-icon
- {
+
+.input-box:focus + .input-icon {
   fill: var(--accent-cl);
 }
 
@@ -832,7 +831,7 @@ textarea {
 }
 
 /* .textarea:hover, */
-.textarea:focus{
+.textarea:focus {
   border: 1px solid var(--accent-cl);
 }
 
