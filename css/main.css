@@ -1,0 +1,18 @@
+:root {
+  /* Fonts */
+  --main-font: "Roboto", sans-serif;
+  --scn-font: "Raleway", sans-serif;
+  /* Text colors */
+  --main-txt-cl: #212121;
+  --scn-txt-cl: #757575;
+  --light-txt-cl: #ffffff;
+  --accent-cl: #2196f3;
+  /* Background colors */
+  --main-bg-cl: #2f303a;
+  --light-bg-cl: #f5f5f5;
+  --third-bg-cl: #f5f4fa;
+  --fourth-bg-cl: #eeeeee;
+  /* Others */
+  --fill-cl: #afb1b8;
+  --anim: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}/*# sourceMappingURL=main.css.map */
