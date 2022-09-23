@@ -58,7 +58,6 @@ body {
   background-color: var(--light-txt-cl);
 }
 
-/* reset */
 html {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
