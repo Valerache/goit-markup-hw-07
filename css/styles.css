@@ -327,7 +327,7 @@ img {
 
 /* Team */
 
-.team__section {
+/* .team__section {
   background-color: var(--third-bg-cl);
 }
 
@@ -372,11 +372,11 @@ img {
   line-height: calc(19 / 16);
   text-align: center;
   margin-bottom: 16px;
-}
+} */
 
 /* Socials */
 
-.socials {
+/* .socials {
   display: flex;
   gap: 10px;
   justify-content: center;
@@ -408,11 +408,11 @@ img {
 .socials__link:hover .socials__icon,
 .socials__link:focus .socials__icon {
   fill: var(--light-txt-cl);
-}
+} */
 
 /* Clients */
 
-.clients__title {
+/* .clients__title {
   margin-bottom: 50px;
   font-size: 36px;
   line-height: calc(42 / 36);
@@ -454,11 +454,11 @@ img {
 .clients__link:hover .clients__icon,
 .clients__link:focus .clients__icon {
   fill: var(--accent-cl);
-}
+} */
 
 /* Portfolio */
 
-.prtf {
+/* .prtf {
   background-color: var(--light-txt-cl);
 }
 
@@ -587,11 +587,11 @@ img {
   font-size: 16px;
   line-height: calc(30 / 16);
   color: var(--scn-txt-cl);
-}
+} */
 
 /* Footer */
 
-.footer {
+/* .footer {
   background-color: var(--main-bg-cl);
   padding-top: 60px;
   padding-bottom: 60px;
@@ -705,14 +705,13 @@ img {
   margin-right: 12px;
   padding-left: 16px;
   color: var(--light-txt-cl);
-}
+} */
 
 /* Modal window */
 
-.backdrop.is-hidden {
+/* .backdrop.is-hidden {
   visibility: hidden;
   opacity: 0;
-  /* pointer-events: 0; */
 }
 
 .backdrop {
@@ -830,7 +829,6 @@ textarea {
   transition: border var(--anim);
 }
 
-/* .textarea:hover, */
 .textarea:focus {
   border: 1px solid var(--accent-cl);
 }
@@ -891,4 +889,4 @@ textarea {
   line-height: calc(30 / 16);
   letter-spacing: 0.06em;
   cursor: pointer;
-}
+} */
