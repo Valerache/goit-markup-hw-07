@@ -1,38 +1,38 @@
-:root {
-  /* Fonts */
-  --main-font: 'Roboto', sans-serif;
-  --scn-font: 'Raleway', sans-serif;
+/* :root { */
+/* Fonts */
+/* --main-font: 'Roboto', sans-serif;
+  --scn-font: 'Raleway', sans-serif; */
 
-  /* Text colors */
-  --main-txt-cl: #212121;
+/* Text colors */
+/* --main-txt-cl: #212121;
   --scn-txt-cl: #757575;
   --light-txt-cl: #ffffff;
-  --accent-cl: #2196f3;
+  --accent-cl: #2196f3; */
 
-  /* Background colors */
-  --main-bg-cl: #2f303a;
+/* Background colors */
+/* --main-bg-cl: #2f303a;
   --light-bg-cl: #f5f5f5;
   --third-bg-cl: #f5f4fa;
-  --fourth-bg-cl: #eeeeee;
+  --fourth-bg-cl: #eeeeee; */
 
-  /* Others */
-  --fill-cl: #afb1b8;
+/* Others */
+/* --fill-cl: #afb1b8;
 
-  --anim: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+  --anim: 250ms cubic-bezier(0.4, 0, 0.2, 1); */
+/* } */
 
-body {
+/* body {
   font-family: var(--main-font);
   color: var(--main-txt-cl);
   font-size: 14px;
   line-height: calc(24 / 14);
   letter-spacing: 0.03em;
   background-color: var(--light-txt-cl);
-}
+} */
 
 /* reset */
 
-html {
+/* html {
   box-sizing: border-box;
 }
 *,
@@ -61,7 +61,7 @@ img {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-}
+} */
 
 /* .header,
 .section,
@@ -70,7 +70,7 @@ img {
   outline-offset: -2px;
 } */
 
-.pecul-subtitle,
+/* .pecul-subtitle,
 .team-subtitle,
 .prtf-tex {
   color: var(--scn-txt-cl);
@@ -84,9 +84,9 @@ img {
 .addr-link,
 .hero-title {
   color: var(--light-txt-cl);
-}
+} */
 
-.prtf-btn,
+/* .prtf-btn,
 .hero-btn,
 .modal-btn,
 .footer-form-btn {
@@ -100,11 +100,11 @@ img {
 .section {
   padding-bottom: 94px;
   padding-top: 94px;
-}
+} */
 
 /* Header */
 
-.header {
+/* .header {
   border-bottom: 1px solid #ececec;
   background-color: var(--light-txt-cl);
 }
@@ -112,9 +112,9 @@ img {
 .header-container {
   display: flex;
   align-items: center;
-}
+} */
 
-.logo {
+/* .logo {
   font-family: var(--scn-font);
   font-weight: 700;
   font-size: 26px;
@@ -123,9 +123,9 @@ img {
 
 .logo-up {
   margin-right: 93px;
-}
+} */
 
-.main-nav {
+/* .main-nav {
   margin-right: auto;
 }
 
@@ -183,9 +183,9 @@ img {
   letter-spacing: 0.02em;
 
   transition: var(--anim);
-}
+} */
 
-.cnt-link {
+/* .cnt-link {
   display: flex;
   align-items: center;
   gap: 10px;
@@ -207,16 +207,16 @@ img {
 .cnt-link:hover .cnt-icon,
 .cnt-link:focus .cnt-icon {
   fill: var(--accent-cl);
-}
+} */
 
-.header-group {
+/* .header-group {
   display: flex;
   align-items: center;
-}
+} */
 
 /* Hero */
 
-.hero {
+/* .hero {
   background-color: var(--main-bg-cl);
   padding-top: 200px;
   padding-bottom: 200px;
@@ -253,11 +253,11 @@ img {
   font-size: 16px;
   line-height: calc(30 / 16);
   letter-spacing: 0.06em;
-}
+} */
 
 /* Differences */
 
-.diff__box {
+/* .diff__box {
   width: 270px;
   height: 120px;
   background-color: var(--third-bg-cl);
@@ -282,11 +282,11 @@ img {
 
 .diff__item {
   width: 270px;
-}
+} */
 
 /* About */
 
-.about__section {
+/* .about__section {
   padding-top: 0;
 }
 
@@ -323,7 +323,7 @@ img {
 .about__text {
   font-size: 14px;
   line-height: calc(16 / 14);
-}
+} */
 
 /* Team */
 
